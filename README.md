@@ -1,19 +1,36 @@
 # Description 
 
-This is the program to compute the Harborth constant g(G) by brute force, that accompanies our article: "On the Harborth constant of `C_3 ⊕ C_3n`
+* This is the program to compute the Harborth constant g(G) by brute force, that accompanies our article: "On the Harborth constant of `C_3 ⊕ C_3n`
+
+* G is a finite abelian group.
+
+* The Harborth constant g(G) is the smallest integer k such that each set over G whith size at least k, has a subset of size `e=exp(G)` that sums to 0. The Harborth constant g(G) corresponds to `e= exp(G)`.
+
+* There is no interface but you only have to change this source code to get results for the Harborth constant for the different finite abelian groups.
+
+* This program is valid for any finite abelian group. With the hardware at our disposal it is possible to compute the Harborth constant for finite abelian groups of order up to about 45.
+
+* The main limiting factor is memory.
+
+* In order to increase the size of accessible groups,currently, we are working on a another version, more efficient based on data compression.
+
+* The group intervenes only in this step `[Initialization]`.
+
+* The subsets of G are represented by a bitmap. 
+
 
 # Program requirements
 
 Please note that the program has been tested using the following elements:
 
-1- The used system is `ubuntu 16.04.10` with `kernel 4.15.0-39`
-2- The used SHELL is `/bin/bash` version `4.3.48`
-3- The `gcc` compiler is used with `5.4.0-6 version`
+* The used system is `ubuntu 16.04.10` with `kernel 4.15.0-39`
+* The used SHELL is `/bin/bash` version `4.3.48`
+* The `gcc` compiler is used with `5.4.0-6 version`
 
 # Sample to run the program
 
-1- Compile the program first `make -f makefile`
-2- run the program with the compiled file `./sommenulle`
+* Compile the program first `make -f makefile`
+* run the program with the compiled file `./sommenulle`
 
 # The user manual
 
