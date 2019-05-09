@@ -64,5 +64,5 @@ define MODULO2 1
 	if(RANG==4)
 		define CARDINAL (MODULO1*MODULO2*MODULO3*MODULO4)
 		define EXPOSANT MODULO4
-	endif
+	endif 
 ```
