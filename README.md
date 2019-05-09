@@ -4,7 +4,7 @@
 
 * G is a finite abelian group.
 
-* The Harborth constant g(G) is the smallest integer k such that each set over G whith size at least k, has a subset of size `e=exp(G)` that sums to 0. The Harborth constant g(G) corresponds to `e= exp(G)`.
+* The Harborth constant g(G) is the smallest integer k such that each set over G whith size at least k, has a subset of size `e=exp(G)` that sums to 0.
 
 * There is no interface but you only have to change this source code to get results for the Harborth constant for the different finite abelian groups.
 
