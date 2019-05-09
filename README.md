@@ -39,7 +39,7 @@ For now, there is no interface but you only have to change this source code to g
 You have to change the parameters of: `MODULO1, MODULO2, MODULO3 and MODULO4`, according to the finite abelian group of which you are looking for its Harborth constant. 
 
 ## Example: 
-For The group `C_3 ⊕ C_12`, you have to enter the following parameters:
+For the group `C_3 ⊕ C_12`, you have to enter the following parameters:
  
 ## Initialization: 
 ```
