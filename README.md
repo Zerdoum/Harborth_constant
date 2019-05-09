@@ -30,11 +30,11 @@ Please note that the program has been tested using the following elements:
 # Sample to run the program
 
 * Compile the program first `make -f makefile`
-* run the program with the compiled file `./sommenulle`
+* Run the program with the compiled file `./sommenulle`
 
 # The user manual
 
-For now, There is no interface but you only have to change this source code to get results for the Harborth constant for the different finite abelian groups.
+For now, there is no interface but you only have to change this source code to get results for the Harborth constant for the different finite abelian groups.
 
 You have to change the parameters of: `MODULO1, MODULO2, MODULO3 and MODULO4`, according to the finite abelian group of which you are looking for its Harborth constant. 
 
