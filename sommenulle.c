@@ -203,6 +203,7 @@ u64 binome(int n, int p)
     }
     return r;
 }
+
 #if (RANG==2)
 // The group law C_f + C_e
 // e is MODULO=EXPONENT of the group
