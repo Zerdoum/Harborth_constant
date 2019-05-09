@@ -8,7 +8,7 @@
 
 * There is no interface but you only have to change this source code to get results for the Harborth constant for the different finite abelian groups.
 
-* This program is valid for any finite abelian group. With the hardware at our disposal it is possible to compute the Harborth constant for finite abelian groups of order up to about 45.
+* This program is valid for any finite abelian group with rank at most four. With the hardware at our disposal it is possible to compute the Harborth constant for finite abelian groups of order up to about 45. The programme does not use in a substantial way that the group is of rank at most four. The restriction is imposed for convenience as we could not treat many groups of rank five anyway.
 
 * The main limiting factor is memory.
 
