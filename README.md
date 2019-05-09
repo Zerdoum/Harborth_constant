@@ -1,6 +1,6 @@
 # Description 
 
-* This is the program to compute the Harborth constant g(G) by brute force, that accompanies our article: "On the Harborth constant of `C_3 ⊕ C_3n`
+* This is a program to compute the Harborth constant g(G), that accompanies our article: "On the Harborth constant of `C_3 ⊕ C_3n`
 
 * G is a finite abelian group.
 
