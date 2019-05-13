@@ -43,15 +43,15 @@ For the group `C_3 ⊕ C_12`, you have to enter the following parameters:
  
 ## Initialization: 
 ```
-define RANG 4
+define RANG 2 
 
-define MODULO1 1
-define MODULO2 1
+define MODULO1 3
+define MODULO2 12
 	if (RANG>=3)
-		define MODULO3 3
+		define MODULO3 0
 	endif
 	if (RANG==4)
-		define MODULO4 12
+		define MODULO4 0
 	endif
 	if (RANG==2)
 		define CARDINAL (MODULO1*MODULO2)
